@@ -1052,6 +1052,7 @@
     requestAnimationFrame(loop);
   }
 
+  loadLevel(1);           // 预载第 1 关，确保主循环渲染时 map 已就绪
   updateHud();
   requestAnimationFrame(loop);
 })();
